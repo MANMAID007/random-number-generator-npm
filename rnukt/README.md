@@ -97,8 +97,11 @@ None
 ## Usage
 
 Generate a random number from 0 to 1 with this command
-`const rnukt = require('rnnukt');`
-`console.log(rnukt.random);`
+
+```
+const rnukt = require('rnnukt');
+console.log(rnukt.random);
+```
 
 <!-- ROADMAP -->
 
