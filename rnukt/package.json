@@ -1,6 +1,6 @@
 {
     "name": "rnukt",
-    "version": "1.1.10",
+    "version": "1.2.10",
     "description": "This package will generate random numbers like swag",
     "main": "app.js",
     "scripts": {

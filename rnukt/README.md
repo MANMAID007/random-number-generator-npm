@@ -71,7 +71,10 @@ You can generate random numbers within 0 and 1, but you always need more. So, he
 ## Getting Started
 
 npm
-`sh npm install rnukt `
+
+    ```sh
+    npm install rnukt
+    ```
 
 ### Prerequisites
 
