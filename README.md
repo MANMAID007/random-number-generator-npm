@@ -1,9 +1,9 @@
 <!-- @format -->
 
-[![Contributors][contributors-shield]][https://github.com/manmaid007/random-number-generator-npm/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/manmaid007/random-number-generator-npm/network/members]
-[![Stargazers][stars-shield]][https://github.com/manmaid007/random-number-generator-npm/stargazers]
-[![Issues][issues-shield]][https://github.com/manmaid007/random-number-generator-npm/issues]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
 <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
@@ -102,7 +102,9 @@ None
 ## Usage
 
 Generate a random number from 0 to 1 with this command
-`sh const rnukt = require('rnnukt'); console.log(rnukt.random); `
+`sh const rnukt = require('rnnukt');
+
+console.log(rnukt.random); `
 
 <!-- ROADMAP -->
 

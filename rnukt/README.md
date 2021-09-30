@@ -1,9 +1,9 @@
 <!-- @format -->
 
-[![Contributors][contributors-shield]][https://github.com/manmaid007/random-number-generator-npm/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/manmaid007/random-number-generator-npm/network/members]
-[![Stargazers][stars-shield]][https://github.com/manmaid007/random-number-generator-npm/stargazers]
-[![Issues][issues-shield]][https://github.com/manmaid007/random-number-generator-npm/issues]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
 <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
@@ -102,7 +102,10 @@ None
 ## Usage
 
 Generate a random number from 0 to 1 with this command
-`sh const rnukt = require('rnnukt'); console.log(rnukt.random); `
+
+`sh const rnukt = require('rnnukt');
+
+console.log(rnukt.random); `
 
 <!-- ROADMAP -->
 
@@ -161,3 +164,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555 -->
 <!-- [linkedin-url]: https://linkedin.com/in/github_username -->
+
+```
+
+```
