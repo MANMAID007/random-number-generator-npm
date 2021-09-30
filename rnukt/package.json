@@ -1,0 +1,25 @@
+{
+    "name": "rnukt",
+    "version": "1.1.10",
+    "description": "This package will generate random numbers like swag",
+    "main": "app.js",
+    "scripts": {
+        "test": "ndb app.js",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MANMAID007/random-number-generator-npm.git"
+    },
+    "keywords": [
+        "random",
+        "number",
+        "generate"
+    ],
+    "author": "Youktinath Bhowmick",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MANMAID007/random-number-generator-npm/issues"
+    },
+    "homepage": "https://github.com/MANMAID007/random-number-generator-npm#readme"
+}

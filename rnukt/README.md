@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://www.npmjs.com/package/rnukt">
+  <a href="https://github.com/MANMAID007/random-number-generator-npm">
     <!-- <img src="../other-files/hippo.png" alt="Random" width="80" height="80"> -->
     <h3 align="center" font-family="'Major Mono Display', monospace">rnukt</h3>
   </a>
