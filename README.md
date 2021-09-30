@@ -7,8 +7,11 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/rnukt">
     <!-- <img src="../other-files/hippo.png" alt="Random" width="80" height="80"> -->
-    <h3 align="center" style="font-family: 'Major Mono Display', monospace;">rnukt</h3>
+    <h3 align="center" style="font-family: 'Major Mono Display', monospace; font-size: 100px; background-color: red; display: inline; position: absolute; left: 50%">rnukt</h3>
   </a>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+</style>
 
   <!-- <h3 align="center">rnukt</h3> -->
 
