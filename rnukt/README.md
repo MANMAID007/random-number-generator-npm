@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/MANMAID007/random-number-generator-npm">
+  <a href="https://www.npmjs.com/package/rnukt">
     <!-- <img src="../other-files/hippo.png" alt="Random" width="80" height="80"> -->
     <h3 align="center" font-family="'Major Mono Display', monospace">rnukt</h3>
   </a>
@@ -102,7 +102,6 @@ None
 ## Usage
 
 Generate a random number from 0 to 1 with this command
-
 `sh const rnukt = require('rnnukt');
 
 console.log(rnukt.random); `
@@ -135,9 +134,9 @@ Distributed under the ISC License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+<!-- Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email -->
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/MANMAID007/random-number-generator-npm/](https://github.com/MANMAID007/random-number-generator-npm/)
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -150,21 +149,17 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/manmaid007/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/manmaid007/random-number-generator-npm/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/manmaid007/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/manmaid007/random-number-generator-npm/network/members
-[stars-shield]: https://img.shields.io/github/stars/manmaid007/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/manmaid007/random-number-generator-npm/stargazers
-[issues-shield]: https://img.shields.io/github/issues/manmaid007/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/manmaid007/random-number-generator-npm/issues
+[contributors-shield]: https://img.shields.io/github/contributors/MANMAID007/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/MANMAID007/random-number-generator-npm/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/MANMAID007/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/MANMAID007/random-number-generator-npm/network/members
+[stars-shield]: https://img.shields.io/github/stars/MANMAID007/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/MANMAID007/random-number-generator-npm/stargazers
+[issues-shield]: https://img.shields.io/github/issues/MANMAID007/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/MANMAID007/random-number-generator-npm/issues
 
 <!-- [license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge -->
 <!-- [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt -->
 
 <!-- [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555 -->
 <!-- [linkedin-url]: https://linkedin.com/in/github_username -->
-
-```
-
-```
