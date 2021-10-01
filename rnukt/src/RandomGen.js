@@ -1,21 +1,31 @@
 /** @format */
 
 // generate a random number between 0 and 1
-exports.random = function () {
+const random = function () {
     return Math.random();
 };
 
 // generate a random number between 0 an n-1
-exports.randomN = function (n) {
-    if (!Number.isInteger(n)) return `${n} is not an integer!`;
-    if (n <= 0) return `Please provide positive integer`;
+const randomN = function (n) {
+    if (!Number.isInteger(n)) throw new Error(`${n} is not an integer!`);
+    if (n <= 0) throw new Error(`Please provide positive integer`);
     return Math.trunc(Math.random() * n);
 };
 
 // generate a random number between m an n-1
-exports.randomMN = function (m, n) {
-    if (m >= n) return `${m} is greater or equals to ${n}, can not generate random number!`;
-    if (!Number.isInteger(m) || !Number.isInteger(n)) return `at least one of the inputed values are not an integer!`;
-    if (m <= 0) return `Please provide positive integers`;
+const randomMN = function (m, n) {
+    if (m >= n) throw new Error(`${m} is greater or equals to ${n}, can not generate random number!`);
+    if (!Number.isInteger(m) || !Number.isInteger(n)) throw new Error(`at least one of the inputed values are not an integer!`);
+    if (m <= 0) throw new Error(`Please provide positive integers`);
     return Math.trunc(Math.random() * (n - m)) + m;
 };
+
+// gives a random element from an array
+const randomFromArr = function (...arr) {
+    const n = arr.length;
+    if (n === 0) throw new Error(`Length of the array is 0, can't process a random element`);
+    if (n === 1) return arr[0];
+    return arr[randomN(n)];
+};
+
+module.exports = { random, randomN, randomMN, randomFromArr };
