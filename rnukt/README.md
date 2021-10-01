@@ -102,6 +102,27 @@ const rnukt = require('rnnukt');
 console.log(rnukt.random);
 ```
 
+Generate a random positive integer from 0 to N with this command
+
+```
+const rnukt = require('rnnukt');
+console.log(rnukt.randomN(56)); // this will generate a random integer between 0 and 55
+```
+
+Generate a random positive integer from M to N with this command
+
+```
+const rnukt = require('rnnukt');
+console.log(rnukt.randomMN(4, 67)); // this will generate a random integer between 4 and 66
+```
+
+Give a random element from a collection of elements with this command
+
+```
+const rnukt = require('rnnukt');
+console.log(rnukt.randomFromArr(1, 4, 54, 857, 23, 23, 32, 2, 6789, "gh", "fg", null));
+```
+
 <!-- ROADMAP -->
 
 ## Roadmap
