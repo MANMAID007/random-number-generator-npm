@@ -1,4 +1,5 @@
 /** @format */
+const functionList = require("./functionList");
 
 // generate a random number between 0 and 1
 const random = function () {
@@ -28,4 +29,9 @@ const randomFromArr = function (...arr) {
     return arr[randomN(n)];
 };
 
-module.exports = { random, randomN, randomMN, randomFromArr };
+const randomByFn = function (fn, cutoff) {
+    if (fn === "binary") return functionList.binary(cutoff);
+    else throw new Error(`${fn} is not function in the list`);
+};
+
+module.exports = { random, randomN, randomMN, randomFromArr, randomByFn };
